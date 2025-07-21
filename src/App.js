@@ -13,7 +13,7 @@ import WishlistPage from "./pages/BookmarksPage";
 import NotificationPage from "./pages/NotificationPage";
 const App = () => {
   return (
-    <Router>
+    <Router basename="/StoryArchiveSite">
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/login" element={<LoginPage />} />
